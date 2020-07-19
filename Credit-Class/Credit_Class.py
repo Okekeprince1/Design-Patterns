@@ -47,4 +47,10 @@ class CreditCard:
             self.balance -= amount
 
 
+"""This Credit Card class is not optimized
+    in the sense that user input 
+    when performing charge is not checked
+    whether it is a negative value or a non-integer type(i.e string)"""
+    
 cc = CreditCard( 'John Doe', '1st Bank' ,'5391 0375 9387 5309' , 1000)
+
